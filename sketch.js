@@ -44,8 +44,8 @@ function preload() {
 }
 
 function setup() {
-  /*
-  se caso quiser transformar a tela compativel com disppisitivos moveis:
+  
+  //se caso quiser transformar a tela compativel com disppisitivos moveis:
   var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
   if(isMobile){
     canW= displayWidth;
@@ -58,8 +58,8 @@ function setup() {
     createCanvas(windowWidth, windowHeight);
   }
 
-  */ 
-  createCanvas(500, 700);
+   
+  //createCanvas(500, 700);
   frameRate(80);
 
   bunny = createSprite(250, 610, 50, 70)
